@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{fec0632b-d670-4b2c-ad6e-9dfce9132666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\core\parallel_line">
+      <UniqueIdentifier>{f36a735d-5aa6-47e2-abe5-c2762ebbbf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\model">
+      <UniqueIdentifier>{3bb078c1-73c6-4a74-b5a9-109f6a52a708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{23570b7e-1f45-4f1a-a022-742e28a3c1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{a56bb213-0c31-45a1-bede-82bd612eb3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core\parallel_line">
+      <UniqueIdentifier>{0fa8923f-90ff-4e90-ad38-bee91ba66871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{aa4a45c3-e043-4a3c-bce2-9e51079b9426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\model">
+      <UniqueIdentifier>{fbc46800-a4b1-4e4c-8650-a64b5c0318bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI文件">
+      <UniqueIdentifier>{ff031ee7-d567-4aff-a863-a90bfe48831c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core\fan_beam">
+      <UniqueIdentifier>{5590bf4a-8e54-43d2-b9b0-b5dace29ef0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\core\fan_beam">
+      <UniqueIdentifier>{b5ea4ecc-95d6-4bd3-8bca-c57a19e10026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CT_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="radon_parallel_line.cpp">
+      <Filter>源文件\core\parallel_line</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_parallel_line.cpp">
+      <Filter>源文件\core\parallel_line</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_radon_functions.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_functions.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_display_functions.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="shepplogan.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="radon_fan_beam.cpp">
+      <Filter>源文件\core\fan_beam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CT_main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_parallel_line.h">
+      <Filter>头文件\core\parallel_line</Filter>
+    </ClInclude>
+    <ClInclude Include="radon_parallel_line.h">
+      <Filter>头文件\core\parallel_line</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_radon_functions.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="shepplogan.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_display_functions.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_functions.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="radon_fan_beam.h">
+      <Filter>头文件\core\fan_beam</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
